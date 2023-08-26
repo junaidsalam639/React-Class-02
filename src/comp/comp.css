@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.slider{
+    width: 100%;
+}
+.slider img{
+   width: 200px;
+}
+
+/* card start */
+.card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.card img{
+    margin-top: 14%;
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+    background-position: center;
+    border-radius: 8px;
+    filter: brightness(1.5);
+    filter: blur(1.1);
+    filter: contrast(1.5);
+}
+.card .card-one{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.card .card-two{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.card .card-three{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.card .card-four{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+/* card end */
