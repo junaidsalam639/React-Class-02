@@ -6,18 +6,21 @@ import Card from './comp/Card';
 import NavbarDefault from './comp/Tailwind';
 import CarouselCustomNavigation from './comp/Slider';
 import EcommerceCard from './comp/Card1';
+import StickyNavbar from './comp/Tailwind';
+
 
 function App() {
   return (
    <>
-   <MenuAppBar/>
-   <Card/>
    <NavbarDefault/>
+   {/* <StickyNavbar/> */}
+   {/* <MenuAppBar/> */}
+   {/* <Card/>
    <CarouselCustomNavigation/>
    <EcommerceCard/>
    <EcommerceCard/>
    <EcommerceCard/>
-   <EcommerceCard/>
+   <EcommerceCard/> */}
    </>
   );
 }

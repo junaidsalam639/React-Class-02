@@ -18,15 +18,15 @@ export default function NavbarDefault() {
   }, []);
  
   const navList = (
-    <ul className="mb-4 mt-2 flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6">
+    <ul className="mb-4 mt-2 bg-fixed flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6">
       <Typography
         as="li"
         variant="small"
         color="blue-gray"
         className="p-1 font-normal"
       >
-        <a href="#" className="flex items-center">
-          Pages
+        <a href="#" className="flex items-center text-2xl">
+          Branding
         </a>
       </Typography>
       <Typography
@@ -35,8 +35,8 @@ export default function NavbarDefault() {
         color="blue-gray"
         className="p-1 font-normal"
       >
-        <a href="#" className="flex items-center">
-          Account
+        <a href="#" className="flex items-center text-2xl">
+          website
         </a>
       </Typography>
       <Typography
@@ -45,8 +45,8 @@ export default function NavbarDefault() {
         color="blue-gray"
         className="p-1 font-normal"
       >
-        <a href="#" className="flex items-center">
-          Blocks
+        <a href="#" className="flex items-center text-2xl">
+          Blog
         </a>
       </Typography>
       <Typography
@@ -55,26 +55,26 @@ export default function NavbarDefault() {
         color="blue-gray"
         className="p-1 font-normal"
       >
-        <a href="#" className="flex items-center">
-          Docs
+        <a href="#" className="flex items-center text-2xl">
+          contactus
         </a>
       </Typography>
     </ul>
   );
  
   return (
-    <Navbar className="mx-auto max-w-screen-xl py-2 px-4 lg:px-8 lg:py-4">
+    <Navbar className="mx-auto max-w-screen-2xl fixed top-0 z-10 left-4 py-2 px-4 lg:px-8 lg:py-2 ">
       <div className="container mx-auto flex items-center justify-between text-blue-gray-900">
         <Typography
           as="a"
           href="#"
           className="mr-4 cursor-pointer py-1.5 font-medium"
         >
-          Material Tailwind
+         <img src="https://brandcurb.com/assets/brandcurb-logo.webp" alt="" />
         </Typography>
         <div className="hidden lg:block">{navList}</div>
         <Button variant="gradient" size="sm" className="hidden lg:inline-block">
-          <span>Buy Now</span>
+          <span>Book Now</span>
         </Button>
         <IconButton
           variant="text"
